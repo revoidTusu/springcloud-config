@@ -8,8 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: spc-provider-dev # 服务名
-
+    name: spc-provider-dev
 eureka:
   client:
     service-url:
@@ -23,8 +22,7 @@ server:
 spring:
   profiles: test
   application:
-    name: spc-provider-test # 服务名
-
+    name: spc-provider-test
 eureka:
   client:
     service-url:
